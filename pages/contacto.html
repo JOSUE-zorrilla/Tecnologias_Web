@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulario de contacto de Mz Distribuciones.">
+    <title>Mz Distribuciones | Contacto</title>
+    <link rel="icon" href="../images/logo.png" type="image/png">
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+
+    <header class="cabecera">
+        <div class="contenedor cabecera-contenido">
+            <a href="../index.html" class="marca">
+                <img src="../images/logo.png" alt="Logo de Mz Distribuciones" width="60" height="60">
+                <span>Mz Distribuciones</span>
+            </a>
+            <nav class="menu" aria-label="Menú principal">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="impacto.html">Impacto Web</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contacto.html" class="activo">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="contenedor">
+        <h1 class="titulo-pagina">Contacto</h1>
+
+        <div class="columnas">
+            <section class="contenido">
+                <h2>Escríbenos</h2>
+                <p>Llena el formulario para hacer un pedido, pedir la lista de precios o dejarnos una sugerencia. Te respondemos en menos de 24 horas.</p>
+
+                <!-- Formulario de contacto (solo maqueta, no envía datos a un servidor) -->
+                <form class="formulario" action="#" method="post">
+                    <div class="campo">
+                        <label for="nombre">Nombre completo</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Ej. Juan Pérez" required>
+                    </div>
+                    <div class="campo">
+                        <label for="correo">Correo electrónico</label>
+                        <input type="email" id="correo" name="correo" placeholder="correo@ejemplo.com" required>
+                    </div>
+                    <div class="campo">
+                        <label for="asunto">Asunto</label>
+                        <input type="text" id="asunto" name="asunto" placeholder="Ej. Pedido de abarrotes" required>
+                    </div>
+                    <div class="campo">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="6" placeholder="Escribe aquí tu mensaje" required></textarea>
+                    </div>
+                    <button type="submit" class="boton">Enviar mensaje</button>
+                </form>
+            </section>
+
+            <aside class="lateral">
+                <h2>Información</h2>
+                <h3>Dirección</h3>
+                <p>Loja, Ecuador</p>
+                <h3>Teléfono</h3>
+                <p>099 000 0000</p>
+                <h3>Correo</h3>
+                <p>info@mzdistribuciones.com</p>
+                <h3>Atención</h3>
+                <ul>
+                    <li>Lunes a viernes: 08:00 a 17:30</li>
+                    <li>Sábados: 08:00 a 13:00</li>
+                </ul>
+            </aside>
+        </div>
+    </main>
+
+    <footer class="pie">
+        <div class="contenedor">
+            <p>&copy; 2026 Mz Distribuciones. Todos los derechos reservados.</p>
+            <p>Proyecto académico: Impacto de las Tecnologías Web en la Sociedad y los Negocios.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
