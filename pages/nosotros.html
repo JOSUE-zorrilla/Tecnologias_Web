@@ -4,90 +4,183 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Historia de Mz Distribuciones y su paso de un negocio tradicional a uno apoyado en la web.">
-    <title>Mz Distribuciones | Nosotros</title>
+    <title>Nosotros | Mz Distribuciones</title>
     <link rel="icon" href="../images/logo.png" type="image/png">
+    <!-- Tipografías: Montserrat para títulos y Open Sans para el texto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&amp;family=Open+Sans:wght@400;600&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
 
-    <header class="cabecera">
-        <div class="contenedor cabecera-contenido">
-            <a href="../index.html" class="marca">
-                <img src="../images/logo.png" alt="Logo de Mz Distribuciones" width="60" height="60">
-                <span>Mz Distribuciones</span>
-            </a>
-            <nav class="menu" aria-label="Menú principal">
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="nosotros.html" class="activo">Nosotros</a></li>
-                    <li><a href="impacto.html">Impacto Web</a></li>
-                    <li><a href="servicios.html">Servicios</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
+    <!-- ========== ENCABEZADO ========== -->
+    <header>
+        <div class="barra-superior">
+            <div class="contenedor">
+                <p><span>Tel:</span> 099 000 0000 &nbsp;|&nbsp; <span>Correo:</span> info@mzdistribuciones.com</p>
+                <p>Lunes a viernes 08:00 - 17:30 &nbsp;|&nbsp; Sábados 08:00 - 13:00</p>
+            </div>
+        </div>
+        <div class="cabecera">
+            <div class="contenedor cabecera-contenido">
+                <a href="../index.html" class="marca">
+                    <img src="../images/logo.png" alt="Logo de Mz Distribuciones" width="52" height="52">
+                    <span>
+                        <span class="marca-nombre">Mz Distribuciones</span>
+                        <span class="marca-lema">Productos de consumo masivo</span>
+                    </span>
+                </a>
+                <nav class="menu" aria-label="Menú principal">
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="nosotros.html" class="activo">Nosotros</a></li>
+                        <li><a href="impacto.html">Impacto Web</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="contacto.html" class="menu-boton">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
 
-    <main class="contenedor">
-        <h1 class="titulo-pagina">Nosotros</h1>
+    <!-- ========== CONTENIDO PRINCIPAL ========== -->
+    <main>
+        <section class="cabecera-pagina fondo-nosotros">
+            <div class="contenedor">
+                <nav class="migas" aria-label="Ruta de navegación">
+                    <ol>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li>Nosotros</li>
+                    </ol>
+                </nav>
+                <h1>Nosotros</h1>
+                <p>Conoce cómo pasamos de anotar pedidos en un cuaderno a trabajar con herramientas web.</p>
+            </div>
+        </section>
 
-        <div class="columnas">
-            <section class="contenido">
-                <h2>Nuestra historia</h2>
-                <p>Mz Distribuciones nació como un emprendimiento familiar con una sola camioneta y una pequeña bodega. Al inicio repartíamos productos de abarrotes a unas cuantas tiendas del barrio y todo el control se hacía a mano: facturas en papel, pedidos por llamada y un cuaderno para las cuentas por cobrar.</p>
-                <p>Con el crecimiento de clientes ese sistema dejó de funcionar. Se perdían pedidos, había errores en el inventario y los clientes no sabían cuándo iba a llegar su mercadería. Ahí empezamos a usar herramientas web.</p>
+        <div class="contenedor columnas">
+            <div class="contenido">
+                <section>
+                    <span class="etiqueta">Nuestra historia</span>
+                    <h2>De un cuaderno de pedidos a la nube</h2>
+                    <p>Mz Distribuciones nació como un emprendimiento familiar con una sola camioneta y una pequeña bodega. Al inicio repartíamos abarrotes a unas cuantas tiendas del barrio y todo el control se hacía a mano: notas de venta en papel, pedidos por llamada y un cuaderno para las cuentas por cobrar.</p>
+                    <p>Con el crecimiento de clientes ese sistema dejó de funcionar. Se perdían pedidos, había errores en el inventario y los clientes no sabían cuándo iba a llegar su mercadería. Ahí empezamos a usar herramientas web.</p>
+                </section>
 
-                <article class="bloque">
-                    <h3>Antes de la web</h3>
-                    <img src="../images/oficina-antes.jpg" alt="Oficina de los años setenta con una persona dibujando a mano y otra en una computadora antigua" width="1280" height="1005">
-                    <p>Así se trabajaba en muchas oficinas hace algunas décadas: mucho papel, archivos físicos y computadoras que no estaban conectadas entre sí. Nuestra forma de trabajar al comienzo no era muy diferente.</p>
-                </article>
+                <section>
+                    <h2>Antes y después de la web</h2>
+                    <div class="comparacion">
+                        <article>
+                            <img src="../images/cuaderno-pedidos.jpg" alt="Mano anotando pedidos con esfero en un cuaderno" width="1400" height="933">
+                            <div class="tarjeta-texto">
+                                <h3 class="marca-antes">Antes</h3>
+                                <ul>
+                                    <li>Pedidos anotados a mano.</li>
+                                    <li>Notas de venta y facturas en papel.</li>
+                                    <li>Inventario contado en cuaderno.</li>
+                                    <li>Atención solo en horario de oficina.</li>
+                                </ul>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="../images/asesoria.jpg" alt="Persona revisando pedidos en su laptop en la oficina" width="1400" height="935">
+                            <div class="tarjeta-texto">
+                                <h3>Ahora</h3>
+                                <ul>
+                                    <li>Pedidos por formulario web y WhatsApp.</li>
+                                    <li>Facturación electrónica.</li>
+                                    <li>Inventario en un sistema en la nube.</li>
+                                    <li>Clientes nuevos que nos encuentran en internet.</li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                </section>
 
-                <article class="bloque">
-                    <h3>Después de la web</h3>
-                    <p>Hoy usamos un catálogo publicado en internet, recibimos pedidos desde formularios y WhatsApp Business, emitimos facturación electrónica y llevamos el inventario en un sistema en la nube. Los cambios más notorios fueron:</p>
-                    <ul>
-                        <li>Menos errores al tomar pedidos.</li>
-                        <li>Clientes nuevos que nos encuentran por buscadores y redes sociales.</li>
-                        <li>Información de ventas disponible en tiempo real.</li>
-                        <li>Menos gasto en papel e impresiones.</li>
-                    </ul>
-                </article>
+                <section>
+                    <h2>Misión y visión</h2>
+                    <div class="mision-vision">
+                        <article>
+                            <h3>Misión</h3>
+                            <p>Abastecer a los pequeños y medianos negocios con productos de calidad, a buen precio y con entregas puntuales, apoyándonos en la tecnología para dar un mejor servicio.</p>
+                        </article>
+                        <article>
+                            <h3>Visión</h3>
+                            <p>Ser una distribuidora reconocida en la región por su atención cercana y por ayudar a los tenderos a dar el paso al comercio digital.</p>
+                        </article>
+                    </div>
+                </section>
 
-                <h2>Misión y visión</h2>
-                <h3>Misión</h3>
-                <p>Abastecer a los pequeños y medianos negocios con productos de calidad, a buen precio y con entregas puntuales, apoyándonos en la tecnología para dar un mejor servicio.</p>
-                <h3>Visión</h3>
-                <p>Ser una distribuidora reconocida en la región por su atención cercana y por facilitar a los tenderos el paso al comercio digital.</p>
-
-                <h2>Cómo fue el cambio, paso a paso</h2>
-                <ol>
-                    <li>Creamos un perfil de la empresa en redes sociales.</li>
-                    <li>Publicamos un catálogo en línea con precios actualizados.</li>
-                    <li>Implementamos la facturación electrónica.</li>
-                    <li>Pasamos el inventario a un sistema en la nube.</li>
-                    <li>Lanzamos este sitio web con formulario de contacto.</li>
-                </ol>
-            </section>
+                <section>
+                    <h2>Cómo fue el cambio, paso a paso</h2>
+                    <ol class="linea-tiempo">
+                        <li><strong>Redes sociales</strong> Creamos el perfil de la empresa para dar a conocer nuestros productos.</li>
+                        <li><strong>Catálogo en línea</strong> Publicamos la lista de productos con precios actualizados.</li>
+                        <li><strong>Facturación electrónica</strong> Dejamos las facturas en papel.</li>
+                        <li><strong>Inventario en la nube</strong> El stock se actualiza con cada venta.</li>
+                        <li><strong>Sitio web</strong> Lanzamos esta página con formulario de contacto.</li>
+                    </ol>
+                </section>
+            </div>
 
             <aside class="lateral">
-                <h2>Valores</h2>
-                <ul>
-                    <li>Responsabilidad</li>
-                    <li>Puntualidad</li>
-                    <li>Honestidad</li>
-                    <li>Trabajo en equipo</li>
-                </ul>
-                <h3>¿Quieres ser cliente?</h3>
-                <p>Déjanos tus datos en la página de <a href="contacto.html">contacto</a> y un asesor te llamará.</p>
+                <div class="caja-lateral">
+                    <h2>Nuestros valores</h2>
+                    <ul>
+                        <li>Responsabilidad</li>
+                        <li>Puntualidad</li>
+                        <li>Honestidad</li>
+                        <li>Trabajo en equipo</li>
+                    </ul>
+                </div>
+                <div class="caja-lateral caja-oscura">
+                    <h2>¿Quieres ser cliente?</h2>
+                    <p>Déjanos tus datos y un asesor te llamará para coordinar tu primer pedido.</p>
+                    <a href="contacto.html" class="boton">Contáctanos</a>
+                </div>
             </aside>
         </div>
     </main>
 
+    <!-- ========== PIE DE PÁGINA ========== -->
     <footer class="pie">
-        <div class="contenedor">
-            <p>&copy; 2026 Mz Distribuciones. Todos los derechos reservados.</p>
-            <p>Proyecto académico: Impacto de las Tecnologías Web en la Sociedad y los Negocios.</p>
+        <div class="contenedor pie-columnas">
+            <div class="pie-marca">
+                <img src="../images/logo.png" alt="Logo de Mz Distribuciones" width="56" height="56">
+                <p>Distribuidora de productos de consumo masivo para tiendas, minimarkets y negocios de Loja y sus alrededores.</p>
+            </div>
+            <div>
+                <h2>Enlaces</h2>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="impacto.html">Impacto Web</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2>Contacto</h2>
+                <ul>
+                    <li>Loja, Ecuador</li>
+                    <li>099 000 0000</li>
+                    <li>info@mzdistribuciones.com</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Horario</h2>
+                <ul>
+                    <li>Lunes a viernes: 08:00 - 17:30</li>
+                    <li>Sábados: 08:00 - 13:00</li>
+                    <li>Pedidos web: las 24 horas</li>
+                </ul>
+            </div>
+        </div>
+        <div class="pie-final">
+            <div class="contenedor">
+                <p>&copy; 2026 Mz Distribuciones. Todos los derechos reservados.</p>
+            </div>
         </div>
     </footer>
 

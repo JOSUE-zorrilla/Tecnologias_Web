@@ -4,61 +4,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Servicios y líneas de productos de Mz Distribuciones.">
-    <title>Mz Distribuciones | Servicios</title>
+    <title>Servicios | Mz Distribuciones</title>
     <link rel="icon" href="../images/logo.png" type="image/png">
+    <!-- Tipografías: Montserrat para títulos y Open Sans para el texto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&amp;family=Open+Sans:wght@400;600&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
 
-    <header class="cabecera">
-        <div class="contenedor cabecera-contenido">
-            <a href="../index.html" class="marca">
-                <img src="../images/logo.png" alt="Logo de Mz Distribuciones" width="60" height="60">
-                <span>Mz Distribuciones</span>
-            </a>
-            <nav class="menu" aria-label="Menú principal">
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                    <li><a href="impacto.html">Impacto Web</a></li>
-                    <li><a href="servicios.html" class="activo">Servicios</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
+    <!-- ========== ENCABEZADO ========== -->
+    <header>
+        <div class="barra-superior">
+            <div class="contenedor">
+                <p><span>Tel:</span> 099 000 0000 &nbsp;|&nbsp; <span>Correo:</span> info@mzdistribuciones.com</p>
+                <p>Lunes a viernes 08:00 - 17:30 &nbsp;|&nbsp; Sábados 08:00 - 13:00</p>
+            </div>
+        </div>
+        <div class="cabecera">
+            <div class="contenedor cabecera-contenido">
+                <a href="../index.html" class="marca">
+                    <img src="../images/logo.png" alt="Logo de Mz Distribuciones" width="52" height="52">
+                    <span>
+                        <span class="marca-nombre">Mz Distribuciones</span>
+                        <span class="marca-lema">Productos de consumo masivo</span>
+                    </span>
+                </a>
+                <nav class="menu" aria-label="Menú principal">
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="impacto.html">Impacto Web</a></li>
+                        <li><a href="servicios.html" class="activo">Servicios</a></li>
+                        <li><a href="contacto.html" class="menu-boton">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
 
-    <main class="contenedor">
-        <h1 class="titulo-pagina">Servicios</h1>
+    <!-- ========== CONTENIDO PRINCIPAL ========== -->
+    <main>
+        <section class="cabecera-pagina fondo-servicios">
+            <div class="contenedor">
+                <nav class="migas" aria-label="Ruta de navegación">
+                    <ol>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li>Servicios</li>
+                    </ol>
+                </nav>
+                <h1>Servicios</h1>
+                <p>Trabajamos con tiendas, minimarkets, panaderías y pequeños restaurantes.</p>
+            </div>
+        </section>
 
-        <div class="columnas">
+        <div class="contenedor columnas">
             <div class="contenido">
                 <section>
-                    <h2>Lo que ofrecemos</h2>
-                    <p>Trabajamos con tiendas, minimarkets, panaderías y pequeños restaurantes. Estos son nuestros servicios principales:</p>
-
-                    <div class="servicios">
-                        <article class="servicio">
-                            <h3>Distribución a domicilio</h3>
-                            <p>Llevamos la mercadería hasta tu local con nuestra flota de reparto.</p>
+                    <span class="etiqueta">Lo que ofrecemos</span>
+                    <h2>Servicios para tu negocio</h2>
+                    <div class="servicio-lista">
+                        <article class="tarjeta">
+                            <img src="../images/montacargas.jpg" alt="Montacargas moviendo mercadería en la bodega" width="1024" height="768">
+                            <div class="tarjeta-texto">
+                                <h3>Almacenamiento y distribución</h3>
+                                <p>Bodega con stock permanente y reparto hasta tu local.</p>
+                            </div>
                         </article>
-                        <article class="servicio">
-                            <h3>Pedidos por la web</h3>
-                            <p>Revisa precios y deja tu pedido desde el celular o la computadora.</p>
+                        <article class="tarjeta">
+                            <img src="../images/busqueda-celular.jpg" alt="Mano con un celular para hacer pedidos en línea" width="1280" height="889">
+                            <div class="tarjeta-texto">
+                                <h3>Pedidos por la web</h3>
+                                <p>Revisa precios y deja tu pedido desde el celular o la computadora.</p>
+                            </div>
                         </article>
-                        <article class="servicio">
-                            <h3>Crédito a clientes frecuentes</h3>
-                            <p>Plazos de pago para negocios con buen historial de compras.</p>
+                        <article class="tarjeta">
+                            <img src="../images/documentos-papel.jpg" alt="Persona firmando documentos sobre una mesa" width="1400" height="928">
+                            <div class="tarjeta-texto">
+                                <h3>Crédito a clientes frecuentes</h3>
+                                <p>Plazos de pago para negocios con buen historial de compras.</p>
+                            </div>
                         </article>
-                        <article class="servicio">
-                            <h3>Asesoría digital</h3>
-                            <p>Ayudamos a los tenderos a usar WhatsApp Business y pagos con transferencia.</p>
+                        <article class="tarjeta">
+                            <img src="../images/asesoria.jpg" alt="Asesora trabajando con una laptop" width="1400" height="935">
+                            <div class="tarjeta-texto">
+                                <h3>Asesoría digital</h3>
+                                <p>Ayudamos a los tenderos a usar WhatsApp Business y pagos con transferencia.</p>
+                            </div>
                         </article>
                     </div>
                 </section>
 
                 <section>
+                    <span class="etiqueta">Catálogo</span>
                     <h2>Líneas de productos</h2>
+                    <div class="galeria">
+                        <figure>
+                            <img src="../images/abarrotes.jpg" alt="Percha con productos de abarrotes, salsas y enlatados" width="1400" height="1050">
+                            <figcaption>Abarrotes y alimentos</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="../images/productos-limpieza.jpg" alt="Percha con productos de limpieza y cloro" width="1400" height="1050">
+                            <figcaption>Productos de limpieza</figcaption>
+                        </figure>
+                    </div>
                     <div class="tabla-scroll">
                         <table>
                             <caption>Productos que distribuimos</caption>
@@ -117,12 +167,18 @@
                 <!-- Créditos de las fotografías usadas en el sitio -->
                 <section id="creditos">
                     <h2>Créditos de imágenes</h2>
-                    <p>Las fotografías del sitio se obtuvieron de Wikimedia Commons:</p>
+                    <p class="creditos">Fotografías obtenidas de Wikimedia Commons bajo licencias libres:</p>
                     <ul class="creditos">
-                        <li>Furgoneta de reparto: MNXANL, CC BY-SA 4.0.</li>
+                        <li>Bodega principal: Axisadman, CC BY-SA 3.0.</li>
+                        <li>Montacargas: Marketing Team, dominio público.</li>
+                        <li>Pasillo de bodega: Nick Saltmarsh, CC BY 2.0.</li>
+                        <li>Camión de reparto: MobiusDaXter, CC BY-SA 3.0.</li>
+                        <li>Abarrotes y productos de limpieza: Wolfmann, CC BY-SA 4.0.</li>
+                        <li>Cuaderno de pedidos: Tookapic, CC0.</li>
+                        <li>Firma de documentos: Olu Eletu, CC0.</li>
+                        <li>Trabajo en laptop: Shixart1985, CC BY 2.0.</li>
                         <li>Compras en línea: Artem Beliaikin, CC BY 2.0.</li>
                         <li>Caja de envío: Bradsills, CC BY-SA 4.0.</li>
-                        <li>Oficina antigua: Tyne &amp; Wear Archives &amp; Museums, sin restricciones conocidas.</li>
                         <li>Celular y búsqueda: Jernej Furman, CC BY 2.0.</li>
                         <li>Servidores: BalticServers.com, CC BY-SA 3.0.</li>
                     </ul>
@@ -130,22 +186,63 @@
             </div>
 
             <aside class="lateral">
-                <h2>Zona de cobertura</h2>
-                <p>Realizamos entregas en la zona urbana y en parroquias cercanas.</p>
-                <h3>Días de reparto</h3>
-                <ul>
-                    <li>Norte: lunes y jueves</li>
-                    <li>Centro: martes y viernes</li>
-                    <li>Sur: miércoles y sábado</li>
-                </ul>
+                <div class="caja-lateral">
+                    <h2>Zona de cobertura</h2>
+                    <p>Entregamos en la zona urbana y en parroquias cercanas.</p>
+                    <h3>Días de reparto</h3>
+                    <ul>
+                        <li>Norte: lunes y jueves</li>
+                        <li>Centro: martes y viernes</li>
+                        <li>Sur: miércoles y sábado</li>
+                    </ul>
+                </div>
+                <div class="caja-lateral caja-oscura">
+                    <h2>Pide tu lista de precios</h2>
+                    <p>Te la enviamos por correo o WhatsApp el mismo día.</p>
+                    <a href="contacto.html" class="boton">Solicitar</a>
+                </div>
             </aside>
         </div>
     </main>
 
+    <!-- ========== PIE DE PÁGINA ========== -->
     <footer class="pie">
-        <div class="contenedor">
-            <p>&copy; 2026 Mz Distribuciones. Todos los derechos reservados.</p>
-            <p>Proyecto académico: Impacto de las Tecnologías Web en la Sociedad y los Negocios.</p>
+        <div class="contenedor pie-columnas">
+            <div class="pie-marca">
+                <img src="../images/logo.png" alt="Logo de Mz Distribuciones" width="56" height="56">
+                <p>Distribuidora de productos de consumo masivo para tiendas, minimarkets y negocios de Loja y sus alrededores.</p>
+            </div>
+            <div>
+                <h2>Enlaces</h2>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="impacto.html">Impacto Web</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2>Contacto</h2>
+                <ul>
+                    <li>Loja, Ecuador</li>
+                    <li>099 000 0000</li>
+                    <li>info@mzdistribuciones.com</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Horario</h2>
+                <ul>
+                    <li>Lunes a viernes: 08:00 - 17:30</li>
+                    <li>Sábados: 08:00 - 13:00</li>
+                    <li>Pedidos web: las 24 horas</li>
+                </ul>
+            </div>
+        </div>
+        <div class="pie-final">
+            <div class="contenedor">
+                <p>&copy; 2026 Mz Distribuciones. Todos los derechos reservados.</p>
+            </div>
         </div>
     </footer>
 
